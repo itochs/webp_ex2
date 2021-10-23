@@ -5,22 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>HTML element</title>
 </head>
 
 <body>
     <header>日本大学文理学部情報科学科 Webプログラミングの演習課題</header>
     <h1 id="head">HTML要素</h1>
+
     <h2>ul要素およびli要素</h2>
     <article>
+        <h3>説明</h3>
         <p>ul要素はリスト表示，つまり箇条書きをする際に使う要素である．li要素は，その箇条書きの項目を表すタグである</p>
-        <pre><code class="HTMLcode">
+        <h4>記述例</h4>
+        <pre class="HTMLcode"><code>
             &lt;ul&gt;
                 &lt;li&gt;one item&lt;/li&gt;
                 &lt;li&gt;second item&lt;/li&gt;
             &lt;/ul&gt;
         </code></pre>
-        <p>結果</p>
+        <h4>表示</h4>
         <div class="result">
             <ul>
                 <li>one item</li>
@@ -28,21 +32,28 @@
             </ul>
         </div>
     </article>
+
     <h2>a要素</h2>
     <article>
+        <h3>説明</h3>
         <p>a要素は，他のページへのリンク，またはページ内の場所へのリンクを埋め込むためのタグである．</p>
-        <pre><code class="HTMLcode">
+        <h4>記述例</h4>
+        <pre class="HTMLcode"><code>
             &lt;a href="https://www.google.com"&gt;Google browser&lt;/a&gt;
         </code></pre>
 
+        <h4>表示</h4>
         <div class="result">
             <a href="https://www.google.com">Google browser</a>
         </div>
     </article>
+
     <h2>nav要素</h2>
     <article>
+        <h3>説明</h3>
         <p>nav要素は，他のページへのリンク，またはページ内の場所へのリンクをまとめたセクション</p>
-        <pre><code class="HTMLcode">
+        <h4>記述例</h4>
+        <pre class="HTMLcode"><code>
             &lt;nav&gt;
                 &lt;ul&gt;
                     &lt;li&gt;other page&lt;/li&gt;
@@ -50,20 +61,15 @@
                 &lt;/ul&gt;
             &lt;/nav&gt;
         </code></pre>
-        <p>結果</p>
-        <div class="result">
-            <nav>
-                <ul>
-                    <li>other page: <a href="https://www.google.com">Google browser</a></li>
-                    <li><a href="#head">in page</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h4>表示</h4>
+        <nav class="result">
+            <ul>
+                <li>other page: <a href="https://www.google.com">Google browser</a></li>
+                <li><a href="#head">in page</a></li>
+            </ul>
+        </nav>
     </article>
 
-    <article>
-
-    </article>
     <footer>5420042 伊東晴紀</footer>
 </body>
 
