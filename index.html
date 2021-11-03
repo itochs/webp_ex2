@@ -24,11 +24,31 @@
                 &lt;li&gt;second item&lt;/li&gt;
             &lt;/ul&gt;
         </code></pre>
+        <pre class="HTMLcode"><code>
+            &lt;ul&gt;
+                &lt;li&gt;one item&lt;/li&gt;
+                &lt;li&gt;two item&lt;/li&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;second-one item&lt;/li&gt;
+                    &lt;li&gt;second-two item&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/ul&gt;
+        </code></pre>
         <h4>表示</h4>
         <div class="result">
             <ul>
                 <li>one item</li>
-                <li>second item</li>
+                <li>two item</li>
+            </ul>
+        </div>
+        <div class="result">
+            <ul>
+                <li>one item</li>
+                <li>two item</li>
+                <ul>
+                    <li>second-one item</li>
+                    <li>second-two item</li>
+                </ul>
             </ul>
         </div>
     </article>
@@ -40,11 +60,15 @@
         <h4>記述例</h4>
         <pre class="HTMLcode"><code>
             &lt;a href="https://www.google.com"&gt;Google browser&lt;/a&gt;
+
+            &lt;p&gt;文章の途中で&lt;a href="https://www.google.com"&gt;リンク&lt;/a&gt;を入れる&lt;/p&gt;
         </code></pre>
 
         <h4>表示</h4>
         <div class="result">
             <a href="https://www.google.com">Google browser</a>
+
+            <p>文章の途中で<a href="https://www.google.com">リンク</a>を入れる</p>
         </div>
     </article>
 
